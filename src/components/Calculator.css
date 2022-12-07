@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+}
+
+button {
+    width: 3em;
+    height: 3em;
+    font-size: 1.6em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.3em;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.wrapper {
+    background-color: black;
+    border-radius: 1em;
+    padding: "1em";
+}
+
+.orange {
+    background-color: #FF9500;
+    color: white;
+}
+
+.orange:focus {
+    background-color: white;
+    color: #FF9500;
+}
+
+.gray {
+    background-color: #505050;
+    color: white;
+}
+
+.gray:focus {
+    background-color: #929292;
+    color: white;
+}
+
+.lightGray:focus {
+    background-color: white;
+    transition: all .2s;
+}
+
+.screen {
+    color: white;
+    display: flex;
+    height: 3em;
+    justify-content: flex-end;
+    margin-right: 0.6em;
+    font-size:4em;
+    align-items: flex-end;
+} 
+
+#btnZero {
+    width: 6.4em;
+    height: 2.85em;
+    text-align: left;
+    padding-left: 1em;
+    font-size: 1.6em;
+}
